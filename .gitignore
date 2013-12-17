@@ -1,2 +1,22 @@
-/Users/klocktower/projects/arise/unity/arise/Library
-/Users/klocktower/projects/arise/unity/arise/Builds
+##################
+# Unity ignores:
+#
+# !!! WARNING !!!
+#
+# … you MUST convert Unity to using Metafiles *before* you start using this
+#  .gitignore file, or you WILL lose data!
+# http://answers.unity3d.com/questions/369755/unity-on-github.html
+ 
+# OS X only:
+.DS_Store
+*.swp
+*.Trashes
+ 
+# All platforms:
+Library
+Temp
+*.csproj
+*.pidb
+*.unityproj
+*.sln
+*.userprefs
