@@ -479,6 +479,153 @@ ModelImporter:
     100946: head_mesh
     100948: fft_mesh
     100950: polySurface281
+    100952: forearm_waveform
+    100954: left_arm_box2
+    100956: midarm_waveform
+    100958: midarm_waveform1
+    100960: polySurface282
+    100962: polySurface283
+    100964: polySurface284
+    100966: upperarm_waveform
+    100968: midarm_waveform2
+    100970: tricep_exoskeleton_mesh
+    100972: polySurface285
+    100974: torso_midi_01
+    100976: torso_midi_02
+    100978: torso_midi_03
+    100980: torso_midi_04
+    100982: torso_midi_05
+    100984: torso_midi_06
+    100986: torso_midi_07
+    100988: torso_midi_08
+    100990: torso_midi_09
+    100992: torso_midi_10
+    100994: torso_midi_11
+    100996: torso_midi_12
+    100998: torso_midi_grp
+    101000: shoulder_waveform_l2
+    101002: shoulder_waveform_l3
+    101004: chest_midi_1_01
+    101006: chest_midi_1_02
+    101008: chest_midi_1_03
+    101010: chest_midi_1_04
+    101012: chest_midi_1_05
+    101014: chest_midi_1_06
+    101016: chest_midi_1_07
+    101018: chest_midi_1_08
+    101020: chest_midi_1_09
+    101022: chest_midi_1_10
+    101024: chest_midi_1_11
+    101026: chest_midi_1_12
+    101028: chest_midi_2_01
+    101030: chest_midi_2_02
+    101032: chest_midi_2_03
+    101034: chest_midi_2_04
+    101036: chest_midi_2_05
+    101038: chest_midi_2_06
+    101040: chest_midi_2_07
+    101042: chest_midi_2_08
+    101044: chest_midi_2_09
+    101046: chest_midi_2_10
+    101048: chest_midi_2_11
+    101050: chest_midi_2_12
+    101052: chest_midi_3_01
+    101054: chest_midi_3_02
+    101056: chest_midi_3_03
+    101058: chest_midi_3_04
+    101060: chest_midi_3_05
+    101062: chest_midi_3_06
+    101064: chest_midi_3_07
+    101066: chest_midi_3_08
+    101068: chest_midi_3_09
+    101070: chest_midi_3_10
+    101072: chest_midi_3_11
+    101074: chest_midi_3_12
+    101076: chest_midi_4_01
+    101078: chest_midi_4_02
+    101080: chest_midi_4_03
+    101082: chest_midi_4_04
+    101084: chest_midi_4_05
+    101086: chest_midi_4_06
+    101088: chest_midi_4_07
+    101090: chest_midi_4_08
+    101092: chest_midi_4_09
+    101094: chest_midi_4_10
+    101096: chest_midi_4_11
+    101098: chest_midi_4_12
+    101100: chest_midi_backboard
+    101102: chest_midi_grp
+    101104: led_leg_track_01
+    101106: led_leg_track_01 1
+    101108: led_leg_track_02
+    101110: led_leg_track_02 1
+    101112: led_leg_track_03
+    101114: led_leg_track_03 1
+    101116: led_leg_track_04
+    101118: led_leg_track_04 1
+    101120: led_leg_track_05
+    101122: led_leg_track_05 1
+    101124: led_leg_track_06
+    101126: led_leg_track_06 1
+    101128: left_leg_track_led_grp
+    101130: right_leg_track_led_grp
+    101132: datacore_1
+    101134: datacore_1_overlay
+    101136: datacore_2
+    101138: datacore_2_overlay
+    101140: datacore_3
+    101142: datacore_4
+    101144: datacore_overlay_1
+    101146: datacore_overlay_2
+    101148: datacore_overlay_3
+    101150: group1
+    101152: group2
+    101154: group3
+    101156: polySurface286
+    101158: polySurface286 1
+    101160: polySurface287
+    101162: polySurface288
+    101164: polySurface375
+    101166: spine2_box
+    101168: spine_2_right_piston_1_box4
+    101170: spine_2_right_piston_1_box5
+    101172: torso_peak_led_01
+    101174: torso_peak_led_02
+    101176: torso_peak_led_03
+    101178: torso_peak_led_04
+    101180: torso_peak_led_05
+    101182: torso_peak_led_06
+    101184: torso_peak_led_07
+    101186: torso_peak_led_left_01
+    101188: torso_peak_led_left_02
+    101190: torso_peak_led_left_03
+    101192: torso_peak_led_left_04
+    101194: torso_peak_led_left_05
+    101196: torso_peak_led_left_06
+    101198: torso_peak_led_left_07
+    101200: transform4
+    101202: transform5
+    101204: spine_2_box_mesh
+    101206: spine_2_box_mesh 1
+    101208: lowerleg_led_01
+    101210: lowerleg_led_01 1
+    101212: lowerleg_led_02
+    101214: lowerleg_led_02 1
+    101216: lowerleg_led_03
+    101218: lowerleg_led_03 1
+    101220: lowerleg_led_04
+    101222: lowerleg_led_04 1
+    101224: lowerleg_led_05
+    101226: lowerleg_led_05 1
+    101228: lowerleg_led_06
+    101230: lowerleg_led_06 1
+    101232: lowerleg_led_07
+    101234: lowerleg_led_07 1
+    101236: lowerleg_led_08
+    101238: lowerleg_led_09
+    101240: lowerleg_led_grp
+    101242: lowerleg_led_grp1
+    101244: upperleg_led_grp
     400000: cog
     400002: crainum
     400004: cranium_peak_meter_l_1
@@ -955,6 +1102,153 @@ ModelImporter:
     400946: head_mesh
     400948: fft_mesh
     400950: polySurface281
+    400952: forearm_waveform
+    400954: left_arm_box2
+    400956: midarm_waveform
+    400958: midarm_waveform1
+    400960: polySurface282
+    400962: polySurface283
+    400964: polySurface284
+    400966: upperarm_waveform
+    400968: midarm_waveform2
+    400970: tricep_exoskeleton_mesh
+    400972: polySurface285
+    400974: torso_midi_01
+    400976: torso_midi_02
+    400978: torso_midi_03
+    400980: torso_midi_04
+    400982: torso_midi_05
+    400984: torso_midi_06
+    400986: torso_midi_07
+    400988: torso_midi_08
+    400990: torso_midi_09
+    400992: torso_midi_10
+    400994: torso_midi_11
+    400996: torso_midi_12
+    400998: torso_midi_grp
+    401000: shoulder_waveform_l2
+    401002: shoulder_waveform_l3
+    401004: chest_midi_1_01
+    401006: chest_midi_1_02
+    401008: chest_midi_1_03
+    401010: chest_midi_1_04
+    401012: chest_midi_1_05
+    401014: chest_midi_1_06
+    401016: chest_midi_1_07
+    401018: chest_midi_1_08
+    401020: chest_midi_1_09
+    401022: chest_midi_1_10
+    401024: chest_midi_1_11
+    401026: chest_midi_1_12
+    401028: chest_midi_2_01
+    401030: chest_midi_2_02
+    401032: chest_midi_2_03
+    401034: chest_midi_2_04
+    401036: chest_midi_2_05
+    401038: chest_midi_2_06
+    401040: chest_midi_2_07
+    401042: chest_midi_2_08
+    401044: chest_midi_2_09
+    401046: chest_midi_2_10
+    401048: chest_midi_2_11
+    401050: chest_midi_2_12
+    401052: chest_midi_3_01
+    401054: chest_midi_3_02
+    401056: chest_midi_3_03
+    401058: chest_midi_3_04
+    401060: chest_midi_3_05
+    401062: chest_midi_3_06
+    401064: chest_midi_3_07
+    401066: chest_midi_3_08
+    401068: chest_midi_3_09
+    401070: chest_midi_3_10
+    401072: chest_midi_3_11
+    401074: chest_midi_3_12
+    401076: chest_midi_4_01
+    401078: chest_midi_4_02
+    401080: chest_midi_4_03
+    401082: chest_midi_4_04
+    401084: chest_midi_4_05
+    401086: chest_midi_4_06
+    401088: chest_midi_4_07
+    401090: chest_midi_4_08
+    401092: chest_midi_4_09
+    401094: chest_midi_4_10
+    401096: chest_midi_4_11
+    401098: chest_midi_4_12
+    401100: chest_midi_backboard
+    401102: chest_midi_grp
+    401104: led_leg_track_01
+    401106: led_leg_track_01 1
+    401108: led_leg_track_02
+    401110: led_leg_track_02 1
+    401112: led_leg_track_03
+    401114: led_leg_track_03 1
+    401116: led_leg_track_04
+    401118: led_leg_track_04 1
+    401120: led_leg_track_05
+    401122: led_leg_track_05 1
+    401124: led_leg_track_06
+    401126: led_leg_track_06 1
+    401128: left_leg_track_led_grp
+    401130: right_leg_track_led_grp
+    401132: datacore_1
+    401134: datacore_1_overlay
+    401136: datacore_2
+    401138: datacore_2_overlay
+    401140: datacore_3
+    401142: datacore_4
+    401144: datacore_overlay_1
+    401146: datacore_overlay_2
+    401148: datacore_overlay_3
+    401150: group1
+    401152: group2
+    401154: group3
+    401156: polySurface286
+    401158: polySurface286 1
+    401160: polySurface287
+    401162: polySurface288
+    401164: polySurface375
+    401166: spine2_box
+    401168: spine_2_right_piston_1_box4
+    401170: spine_2_right_piston_1_box5
+    401172: torso_peak_led_01
+    401174: torso_peak_led_02
+    401176: torso_peak_led_03
+    401178: torso_peak_led_04
+    401180: torso_peak_led_05
+    401182: torso_peak_led_06
+    401184: torso_peak_led_07
+    401186: torso_peak_led_left_01
+    401188: torso_peak_led_left_02
+    401190: torso_peak_led_left_03
+    401192: torso_peak_led_left_04
+    401194: torso_peak_led_left_05
+    401196: torso_peak_led_left_06
+    401198: torso_peak_led_left_07
+    401200: transform4
+    401202: transform5
+    401204: spine_2_box_mesh
+    401206: spine_2_box_mesh 1
+    401208: lowerleg_led_01
+    401210: lowerleg_led_01 1
+    401212: lowerleg_led_02
+    401214: lowerleg_led_02 1
+    401216: lowerleg_led_03
+    401218: lowerleg_led_03 1
+    401220: lowerleg_led_04
+    401222: lowerleg_led_04 1
+    401224: lowerleg_led_05
+    401226: lowerleg_led_05 1
+    401228: lowerleg_led_06
+    401230: lowerleg_led_06 1
+    401232: lowerleg_led_07
+    401234: lowerleg_led_07 1
+    401236: lowerleg_led_08
+    401238: lowerleg_led_09
+    401240: lowerleg_led_grp
+    401242: lowerleg_led_grp1
+    401244: upperleg_led_grp
     2300000: crainum
     2300002: cranium_peak_meter_l_1
     2300004: cranium_peak_meter_l_2
@@ -1303,6 +1597,138 @@ ModelImporter:
     2300690: head_mesh
     2300692: fft_mesh
     2300694: polySurface281
+    2300696: forearm_waveform
+    2300698: left_arm_box2
+    2300700: midarm_waveform
+    2300702: midarm_waveform1
+    2300704: polySurface282
+    2300706: polySurface283
+    2300708: polySurface284
+    2300710: upperarm_waveform
+    2300712: tricep_exoskeleton_mesh
+    2300714: polySurface285
+    2300716: torso_midi_01
+    2300718: torso_midi_02
+    2300720: torso_midi_03
+    2300722: torso_midi_04
+    2300724: torso_midi_05
+    2300726: torso_midi_06
+    2300728: torso_midi_07
+    2300730: torso_midi_08
+    2300732: torso_midi_09
+    2300734: torso_midi_10
+    2300736: torso_midi_11
+    2300738: torso_midi_12
+    2300740: shoulder_waveform_l2
+    2300742: shoulder_waveform_l3
+    2300744: chest_midi_1_01
+    2300746: chest_midi_1_02
+    2300748: chest_midi_1_03
+    2300750: chest_midi_1_04
+    2300752: chest_midi_1_05
+    2300754: chest_midi_1_06
+    2300756: chest_midi_1_07
+    2300758: chest_midi_1_08
+    2300760: chest_midi_1_09
+    2300762: chest_midi_1_10
+    2300764: chest_midi_1_11
+    2300766: chest_midi_1_12
+    2300768: chest_midi_2_01
+    2300770: chest_midi_2_02
+    2300772: chest_midi_2_03
+    2300774: chest_midi_2_04
+    2300776: chest_midi_2_05
+    2300778: chest_midi_2_06
+    2300780: chest_midi_2_07
+    2300782: chest_midi_2_08
+    2300784: chest_midi_2_09
+    2300786: chest_midi_2_10
+    2300788: chest_midi_2_11
+    2300790: chest_midi_2_12
+    2300792: chest_midi_3_01
+    2300794: chest_midi_3_02
+    2300796: chest_midi_3_03
+    2300798: chest_midi_3_04
+    2300800: chest_midi_3_05
+    2300802: chest_midi_3_06
+    2300804: chest_midi_3_07
+    2300806: chest_midi_3_08
+    2300808: chest_midi_3_09
+    2300810: chest_midi_3_10
+    2300812: chest_midi_3_11
+    2300814: chest_midi_3_12
+    2300816: chest_midi_4_01
+    2300818: chest_midi_4_02
+    2300820: chest_midi_4_03
+    2300822: chest_midi_4_04
+    2300824: chest_midi_4_05
+    2300826: chest_midi_4_06
+    2300828: chest_midi_4_07
+    2300830: chest_midi_4_08
+    2300832: chest_midi_4_09
+    2300834: chest_midi_4_10
+    2300836: chest_midi_4_11
+    2300838: chest_midi_4_12
+    2300840: chest_midi_backboard
+    2300842: led_leg_track_01
+    2300844: led_leg_track_01 1
+    2300846: led_leg_track_02
+    2300848: led_leg_track_02 1
+    2300850: led_leg_track_03
+    2300852: led_leg_track_03 1
+    2300854: led_leg_track_04
+    2300856: led_leg_track_04 1
+    2300858: led_leg_track_05
+    2300860: led_leg_track_05 1
+    2300862: led_leg_track_06
+    2300864: led_leg_track_06 1
+    2300866: datacore_1
+    2300868: datacore_1_overlay
+    2300870: datacore_2
+    2300872: datacore_2_overlay
+    2300874: datacore_3
+    2300876: datacore_4
+    2300878: datacore_overlay_1
+    2300880: datacore_overlay_2
+    2300882: datacore_overlay_3
+    2300884: polySurface286 1
+    2300886: polySurface287
+    2300888: polySurface375
+    2300890: spine_2_right_piston_1_box4
+    2300892: spine_2_right_piston_1_box5
+    2300894: torso_peak_led_01
+    2300896: torso_peak_led_02
+    2300898: torso_peak_led_03
+    2300900: torso_peak_led_04
+    2300902: torso_peak_led_05
+    2300904: torso_peak_led_06
+    2300906: torso_peak_led_07
+    2300908: torso_peak_led_left_01
+    2300910: torso_peak_led_left_02
+    2300912: torso_peak_led_left_03
+    2300914: torso_peak_led_left_04
+    2300916: torso_peak_led_left_05
+    2300918: torso_peak_led_left_06
+    2300920: torso_peak_led_left_07
+    2300922: polySurface286
+    2300924: spine_2_box_mesh
+    2300926: spine_2_box_mesh 1
+    2300928: lowerleg_led_01
+    2300930: lowerleg_led_01 1
+    2300932: lowerleg_led_02
+    2300934: lowerleg_led_02 1
+    2300936: lowerleg_led_03
+    2300938: lowerleg_led_03 1
+    2300940: lowerleg_led_04
+    2300942: lowerleg_led_04 1
+    2300944: lowerleg_led_05
+    2300946: lowerleg_led_05 1
+    2300948: lowerleg_led_06
+    2300950: lowerleg_led_06 1
+    2300952: lowerleg_led_07
+    2300954: lowerleg_led_07 1
+    2300956: lowerleg_led_08
+    2300958: lowerleg_led_09
     3300000: crainum
     3300002: cranium_peak_meter_l_1
     3300004: cranium_peak_meter_l_2
@@ -1651,6 +2077,138 @@ ModelImporter:
     3300690: head_mesh
     3300692: fft_mesh
     3300694: polySurface281
+    3300696: forearm_waveform
+    3300698: left_arm_box2
+    3300700: midarm_waveform
+    3300702: midarm_waveform1
+    3300704: polySurface282
+    3300706: polySurface283
+    3300708: polySurface284
+    3300710: upperarm_waveform
+    3300712: tricep_exoskeleton_mesh
+    3300714: polySurface285
+    3300716: torso_midi_01
+    3300718: torso_midi_02
+    3300720: torso_midi_03
+    3300722: torso_midi_04
+    3300724: torso_midi_05
+    3300726: torso_midi_06
+    3300728: torso_midi_07
+    3300730: torso_midi_08
+    3300732: torso_midi_09
+    3300734: torso_midi_10
+    3300736: torso_midi_11
+    3300738: torso_midi_12
+    3300740: shoulder_waveform_l2
+    3300742: shoulder_waveform_l3
+    3300744: chest_midi_1_01
+    3300746: chest_midi_1_02
+    3300748: chest_midi_1_03
+    3300750: chest_midi_1_04
+    3300752: chest_midi_1_05
+    3300754: chest_midi_1_06
+    3300756: chest_midi_1_07
+    3300758: chest_midi_1_08
+    3300760: chest_midi_1_09
+    3300762: chest_midi_1_10
+    3300764: chest_midi_1_11
+    3300766: chest_midi_1_12
+    3300768: chest_midi_2_01
+    3300770: chest_midi_2_02
+    3300772: chest_midi_2_03
+    3300774: chest_midi_2_04
+    3300776: chest_midi_2_05
+    3300778: chest_midi_2_06
+    3300780: chest_midi_2_07
+    3300782: chest_midi_2_08
+    3300784: chest_midi_2_09
+    3300786: chest_midi_2_10
+    3300788: chest_midi_2_11
+    3300790: chest_midi_2_12
+    3300792: chest_midi_3_01
+    3300794: chest_midi_3_02
+    3300796: chest_midi_3_03
+    3300798: chest_midi_3_04
+    3300800: chest_midi_3_05
+    3300802: chest_midi_3_06
+    3300804: chest_midi_3_07
+    3300806: chest_midi_3_08
+    3300808: chest_midi_3_09
+    3300810: chest_midi_3_10
+    3300812: chest_midi_3_11
+    3300814: chest_midi_3_12
+    3300816: chest_midi_4_01
+    3300818: chest_midi_4_02
+    3300820: chest_midi_4_03
+    3300822: chest_midi_4_04
+    3300824: chest_midi_4_05
+    3300826: chest_midi_4_06
+    3300828: chest_midi_4_07
+    3300830: chest_midi_4_08
+    3300832: chest_midi_4_09
+    3300834: chest_midi_4_10
+    3300836: chest_midi_4_11
+    3300838: chest_midi_4_12
+    3300840: chest_midi_backboard
+    3300842: led_leg_track_01
+    3300844: led_leg_track_01 1
+    3300846: led_leg_track_02
+    3300848: led_leg_track_02 1
+    3300850: led_leg_track_03
+    3300852: led_leg_track_03 1
+    3300854: led_leg_track_04
+    3300856: led_leg_track_04 1
+    3300858: led_leg_track_05
+    3300860: led_leg_track_05 1
+    3300862: led_leg_track_06
+    3300864: led_leg_track_06 1
+    3300866: datacore_1
+    3300868: datacore_1_overlay
+    3300870: datacore_2
+    3300872: datacore_2_overlay
+    3300874: datacore_3
+    3300876: datacore_4
+    3300878: datacore_overlay_1
+    3300880: datacore_overlay_2
+    3300882: datacore_overlay_3
+    3300884: polySurface286 1
+    3300886: polySurface287
+    3300888: polySurface375
+    3300890: spine_2_right_piston_1_box4
+    3300892: spine_2_right_piston_1_box5
+    3300894: torso_peak_led_01
+    3300896: torso_peak_led_02
+    3300898: torso_peak_led_03
+    3300900: torso_peak_led_04
+    3300902: torso_peak_led_05
+    3300904: torso_peak_led_06
+    3300906: torso_peak_led_07
+    3300908: torso_peak_led_left_01
+    3300910: torso_peak_led_left_02
+    3300912: torso_peak_led_left_03
+    3300914: torso_peak_led_left_04
+    3300916: torso_peak_led_left_05
+    3300918: torso_peak_led_left_06
+    3300920: torso_peak_led_left_07
+    3300922: polySurface286
+    3300924: spine_2_box_mesh
+    3300926: spine_2_box_mesh 1
+    3300928: lowerleg_led_01
+    3300930: lowerleg_led_01 1
+    3300932: lowerleg_led_02
+    3300934: lowerleg_led_02 1
+    3300936: lowerleg_led_03
+    3300938: lowerleg_led_03 1
+    3300940: lowerleg_led_04
+    3300942: lowerleg_led_04 1
+    3300944: lowerleg_led_05
+    3300946: lowerleg_led_05 1
+    3300948: lowerleg_led_06
+    3300950: lowerleg_led_06 1
+    3300952: lowerleg_led_07
+    3300954: lowerleg_led_07 1
+    3300956: lowerleg_led_08
+    3300958: lowerleg_led_09
     4300000: visor
     4300002: visor_overlay
     4300004: polySurface185
@@ -1999,6 +2557,137 @@ ModelImporter:
     4300690: cranium_peak_track_right
     4300692: polySurface281
     4300694: fft_mesh
+    4300696: forearm_waveform
+    4300698: left_arm_box2
+    4300700: midarm_waveform
+    4300702: midarm_waveform1
+    4300704: polySurface282
+    4300706: upperarm_waveform
+    4300708: polySurface284
+    4300710: polySurface283
+    4300712: tricep_exoskeleton_mesh
+    4300714: polySurface285
+    4300716: torso_midi_09
+    4300718: torso_midi_10
+    4300720: torso_midi_11
+    4300722: torso_midi_12
+    4300724: torso_midi_04
+    4300726: torso_midi_02
+    4300728: torso_midi_01
+    4300730: torso_midi_03
+    4300732: torso_midi_05
+    4300734: torso_midi_06
+    4300736: torso_midi_07
+    4300738: torso_midi_08
+    4300740: shoulder_waveform_l3
+    4300742: shoulder_waveform_l2
+    4300744: chest_midi_4_01
+    4300746: chest_midi_4_02
+    4300748: chest_midi_4_03
+    4300750: chest_midi_4_04
+    4300752: chest_midi_4_05
+    4300754: chest_midi_4_06
+    4300756: chest_midi_4_07
+    4300758: chest_midi_4_08
+    4300760: chest_midi_4_09
+    4300762: chest_midi_4_10
+    4300764: chest_midi_4_11
+    4300766: chest_midi_4_12
+    4300768: chest_midi_3_01
+    4300770: chest_midi_3_02
+    4300772: chest_midi_3_03
+    4300774: chest_midi_3_04
+    4300776: chest_midi_3_05
+    4300778: chest_midi_3_06
+    4300780: chest_midi_3_07
+    4300782: chest_midi_3_08
+    4300784: chest_midi_3_09
+    4300786: chest_midi_3_10
+    4300788: chest_midi_3_11
+    4300790: chest_midi_3_12
+    4300792: chest_midi_2_01
+    4300794: chest_midi_2_02
+    4300796: chest_midi_2_03
+    4300798: chest_midi_2_04
+    4300800: chest_midi_2_05
+    4300802: chest_midi_2_06
+    4300804: chest_midi_2_07
+    4300806: chest_midi_2_08
+    4300808: chest_midi_2_09
+    4300810: chest_midi_2_10
+    4300812: chest_midi_2_11
+    4300814: chest_midi_2_12
+    4300816: chest_midi_1_01
+    4300818: chest_midi_1_02
+    4300820: chest_midi_1_03
+    4300822: chest_midi_1_04
+    4300824: chest_midi_1_05
+    4300826: chest_midi_1_06
+    4300828: chest_midi_1_07
+    4300830: chest_midi_1_08
+    4300832: chest_midi_1_09
+    4300834: chest_midi_1_10
+    4300836: chest_midi_1_11
+    4300838: chest_midi_1_12
+    4300840: chest_midi_backboard
+    4300842: led_leg_track_06
+    4300844: led_leg_track_05
+    4300846: led_leg_track_04
+    4300848: led_leg_track_03
+    4300850: led_leg_track_02
+    4300852: led_leg_track_01
+    4300854: led_leg_track_06
+    4300856: led_leg_track_05
+    4300858: led_leg_track_04
+    4300860: led_leg_track_03
+    4300862: led_leg_track_02
+    4300864: led_leg_track_01
+    4300866: datacore_2_overlay
+    4300868: datacore_2
+    4300870: datacore_1
+    4300872: datacore_1_overlay
+    4300874: datacore_overlay_3
+    4300876: datacore_4
+    4300878: datacore_overlay_2
+    4300880: datacore_3
+    4300882: datacore_overlay_1
+    4300884: polySurface287
+    4300886: spine_2_right_piston_1_box4
+    4300888: spine_2_right_piston_1_box5
+    4300890: torso_peak_led_05
+    4300892: torso_peak_led_06
+    4300894: torso_peak_led_07
+    4300896: torso_peak_led_left_05
+    4300898: torso_peak_led_left_06
+    4300900: torso_peak_led_left_07
+    4300902: polySurface286
+    4300904: torso_peak_led_03
+    4300906: torso_peak_led_04
+    4300908: torso_peak_led_left_03
+    4300910: torso_peak_led_left_04
+    4300912: torso_peak_led_01
+    4300914: torso_peak_led_02
+    4300916: torso_peak_led_left_01
+    4300918: torso_peak_led_left_02
+    4300920: polySurface375
+    4300922: spine_2_box_mesh
+    4300924: spine_2_box_mesh
+    4300926: lowerleg_led_04
+    4300928: lowerleg_led_03
+    4300930: lowerleg_led_02
+    4300932: lowerleg_led_01
+    4300934: lowerleg_led_07
+    4300936: lowerleg_led_06
+    4300938: lowerleg_led_05
+    4300940: lowerleg_led_08
+    4300942: lowerleg_led_04
+    4300944: lowerleg_led_03
+    4300946: lowerleg_led_02
+    4300948: lowerleg_led_01
+    4300950: lowerleg_led_07
+    4300952: lowerleg_led_06
+    4300954: lowerleg_led_05
+    4300956: lowerleg_led_09
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -2604,6 +3293,11 @@ ModelImporter:
       rotation: {x: .13052617, y: .991444826, z: 2.16530669e-08, w: -2.85067325e-09}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: lowerleg_led_09
+      position: {x: -2.89093161, y: -2.6174705, z: 2.60561061}
+      rotation: {x: .560985446, y: .430459261, z: -.560985446, w: .430459261}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: polySurface273
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
@@ -2684,6 +3378,41 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: left_leg_track_led_grp
+      position: {x: -7.10542736e-15, y: 5.32907052e-15, z: 0}
+      rotation: {x: -2.10957349e-08, y: -5.65258507e-09, z: -2.21009408e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_01
+      position: {x: -2, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_02
+      position: {x: -3.5, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_03
+      position: {x: -5, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_04
+      position: {x: -6.5, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_05
+      position: {x: -8, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_06
+      position: {x: -9.5, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: leg_led_grp_left
       position: {x: 8.13972179e-08, y: 1.58171053e-14, z: -1.51150147e-07}
       rotation: {x: -2.10957349e-08, y: -5.65258507e-09, z: -4.98565148e-17, w: .99999994}
@@ -2734,6 +3463,31 @@ ModelImporter:
       rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: lowerleg_led_grp1
+      position: {x: -7.10542736e-15, y: 5.32907052e-15, z: 0}
+      rotation: {x: -2.10957349e-08, y: -5.65258507e-09, z: -2.21009408e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_01
+      position: {x: -9.83390141, y: -3.60389662, z: 0}
+      rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_02
+      position: {x: -7.0228405, y: -3.60389662, z: 8.8817842e-16}
+      rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_03
+      position: {x: -4.24441004, y: -3.60389662, z: 2.22044605e-15}
+      rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_04
+      position: {x: -1.47271609, y: -3.60389662, z: 3.10862447e-15}
+      rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: pCube241
       position: {x: -7.10542736e-15, y: -1.53677094, z: -2.15988749e-07}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
@@ -2752,6 +3506,21 @@ ModelImporter:
     - name: polySurface271
       position: {x: -20.8804836, y: 4.26041079, z: -3.5999999}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_05
+      position: {x: -11.8896446, y: -2.11680007, z: 2.20722556}
+      rotation: {x: .560985446, y: .430459261, z: -.560985446, w: .430459261}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_06
+      position: {x: -8.93234348, y: -2.11680007, z: 2.20722556}
+      rotation: {x: .560985446, y: .430459261, z: -.560985446, w: .430459261}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_07
+      position: {x: -6.01219082, y: -2.11680007, z: 2.2072258}
+      rotation: {x: .560985446, y: .430459261, z: -.560985446, w: .430459261}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: pCube242
@@ -2808,6 +3577,11 @@ ModelImporter:
       position: {x: 1.15826583, y: -1.65587533, z: 3.5999999}
       rotation: {x: .13052617, y: .991444826, z: 2.16530669e-08, w: -2.8506737e-09}
       scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_08
+      position: {x: -2.89093161, y: -2.6174705, z: -2.60561085}
+      rotation: {x: .387519002, y: -6.64964655e-15, z: 2.75012095e-15, w: .921861649}
+      scale: {x: 1, y: 1, z: .32633701}
       transformModified: 1
     - name: polySurface264
       position: {x: -0, y: 0, z: 0}
@@ -2919,6 +3693,31 @@ ModelImporter:
       rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: lowerleg_led_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_01 1
+      position: {x: -9.83390141, y: -3.60389662, z: 0}
+      rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_02 1
+      position: {x: -7.0228405, y: -3.60389662, z: 8.8817842e-16}
+      rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_03 1
+      position: {x: -4.24441004, y: -3.60389662, z: 2.22044605e-15}
+      rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_04 1
+      position: {x: -1.47271609, y: -3.60389662, z: 3.10862447e-15}
+      rotation: {x: 0, y: 0, z: 1.3877787e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: pCube227
       position: {x: 7.10542736e-15, y: -1.53677094, z: 6.66133815e-15}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
@@ -2974,6 +3773,61 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: right_leg_track_led_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_01 1
+      position: {x: -2, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_02 1
+      position: {x: -3.5, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_03 1
+      position: {x: -5, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_04 1
+      position: {x: -6.5, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_05 1
+      position: {x: -8, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: led_leg_track_06 1
+      position: {x: -9.5, y: -5.24883318, z: -2.37355792e-07}
+      rotation: {x: 3.30557312e-24, y: -1.44324432e-25, z: -.0436193831, w: .999048173}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: upperleg_led_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: lowerleg_led_05 1
+      position: {x: -11.8896446, y: -2.11680007, z: -2.2072258}
+      rotation: {x: .387519002, y: -5.37790731e-18, z: -1.27934003e-17, w: .921861649}
+      scale: {x: 1, y: 1, z: .32633701}
+      transformModified: 1
+    - name: lowerleg_led_06 1
+      position: {x: -8.93234348, y: -2.11680007, z: -2.2072258}
+      rotation: {x: .387519002, y: -5.37790731e-18, z: -1.27934003e-17, w: .921861649}
+      scale: {x: 1, y: 1, z: .32633701}
+      transformModified: 1
+    - name: lowerleg_led_07 1
+      position: {x: -6.01219082, y: -2.11680007, z: -2.2072258}
+      rotation: {x: .387519002, y: -5.37790731e-18, z: -1.27934003e-17, w: .921861649}
+      scale: {x: 1, y: 1, z: .32633701}
+      transformModified: 1
     - name: upperleg_led_grp_right
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
@@ -3019,9 +3873,14 @@ ModelImporter:
       rotation: {x: .524598718, y: -.474126697, z: .524598718, w: .474126697}
       scale: {x: 1, y: .83752805, z: 1}
       transformModified: 1
-    - name: pCylinder237
-      position: {x: 4.65673854e-15, y: -.108023763, z: -.957722008}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+    - name: datacore_1
+      position: {x: -3.63031677e-16, y: .488028198, z: -4.4408921e-16}
+      rotation: {x: 0, y: 0, z: 3.67242508e-32, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: datacore_overlay_1
+      position: {x: -3.63031677e-16, y: .488028198, z: -4.4408921e-16}
+      rotation: {x: 0, y: 0, z: 3.67242508e-32, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: led_grp_1
@@ -3209,19 +4068,9 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: spine_2_box 1
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: polySurface280
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: transform3
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+    - name: spine_2_box_mesh
+      position: {x: 40.8621597, y: 7.46150923, z: -9.56167044e-15}
+      rotation: {x: .54793793, y: -.446949601, z: .54793793, w: .446949601}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: spine_2_left_piston_1
@@ -3414,34 +4263,24 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -1.3066062e-32, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: polySurface279
-      position: {x: 40.8621597, y: 7.46150923, z: -9.37162843e-15}
-      rotation: {x: .54793793, y: -.446949601, z: .54793793, w: .446949601}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: rhythm_core
       position: {x: -2.61335492, y: -2.08541918, z: 1.06311972e-16}
       rotation: {x: .54793793, y: -.446949601, z: .54793793, w: .446949601}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: pCylinder238
-      position: {x: 6.68555863e-15, y: -.848855555, z: 1.82784522}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
+    - name: datacore_3
+      position: {x: 1.02817115e-15, y: -.971321702, z: 2.55534482}
+      rotation: {x: 1.33185052e-16, y: 6.72001e-17, z: 1.04741222e-16, w: .99999994}
+      scale: {x: 1, y: .83752805, z: 1}
       transformModified: 1
-    - name: spine_3_box
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
+    - name: datacore_overlay_2
+      position: {x: 1.02817115e-15, y: -.971321702, z: 2.55534482}
+      rotation: {x: 1.33185052e-16, y: 6.72001e-17, z: 1.04741222e-16, w: .99999994}
+      scale: {x: 1, y: .83752805, z: 1}
       transformModified: 1
-    - name: polySurface276
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: transform2
-      position: {x: -0, y: 0, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+    - name: spine_2_box_mesh 1
+      position: {x: 40.8621597, y: 7.46150923, z: -9.56167044e-15}
+      rotation: {x: .54793793, y: -.446949601, z: .54793793, w: .446949601}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: spine_4
@@ -3454,9 +4293,279 @@ ModelImporter:
       rotation: {x: 0, y: -5.39260348e-33, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: chest_midi_backboard
+      position: {x: -0, y: 0, z: -1.57772181e-30}
+      rotation: {x: 0, y: 3.85185952e-33, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_grp
+      position: {x: -5.25622654, y: -7.8069253, z: -6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_01
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_02
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_03
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_04
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_05
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_06
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_07
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_08
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_09
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_10
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_11
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_1_12
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_01
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_02
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_03
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_04
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_05
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_06
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_07
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_08
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_09
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_10
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_11
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_2_12
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_01
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_02
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_03
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_04
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_05
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_06
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_07
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_08
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_09
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_10
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_11
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_3_12
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_01
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_02
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_03
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_04
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_05
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_06
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_07
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_08
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_09
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_10
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_11
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest_midi_4_12
+      position: {x: 5.25622654, y: 7.8069253, z: 6.74010289e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: datacore_4
+      position: {x: -2.21311998, y: -4.91949177, z: -9.16190329e-16}
+      rotation: {x: .49999997, y: -.49999997, z: .49999997, w: .49999997}
+      scale: {x: 1, y: .83752805, z: 1}
+      transformModified: 1
+    - name: datacore_overlay_3
+      position: {x: -2.21311998, y: -4.91949177, z: -9.16190329e-16}
+      rotation: {x: .49999997, y: -.49999997, z: .49999997, w: .49999997}
+      scale: {x: 1, y: .83752805, z: 1}
+      transformModified: 1
     - name: fft_mesh
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 8.32667202e-17, y: -2.73482023e-32, z: -1.80411228e-16, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine_2_right_piston_1_box5
+      position: {x: -4.10729694, y: -5.99444246, z: -3.34910703}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: led_grp_5
@@ -3606,7 +4715,7 @@ ModelImporter:
       transformModified: 1
     - name: arm_led_grp1
       position: {x: -8.43151156e-06, y: -1.87654257e-06, z: -1.6109766e-06}
-      rotation: {x: -.612372458, y: -.353553385, z: .707106769, w: 6.67289697e-16}
+      rotation: {x: -.612372458, y: -.353553385, z: .707106769, w: 6.67290015e-16}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: arm_led_01
@@ -3622,6 +4731,11 @@ ModelImporter:
     - name: arm_led_03
       position: {x: .52939117, y: -.916932404, z: -2.9805913}
       rotation: {x: -7.17010412e-18, y: -1.3877787e-17, z: 2.7755574e-17, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: left_arm_box2
+      position: {x: -3.55271368e-15, y: -8.8817842e-16, z: -1.42108547e-14}
+      rotation: {x: 6.76963538e-18, y: -3.46944662e-17, z: 2.7755574e-17, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: left_elbow
@@ -3846,7 +4960,7 @@ ModelImporter:
       transformModified: 1
     - name: r_forearm_led_grp1
       position: {x: -8.43151156e-06, y: -1.87654257e-06, z: -1.6109766e-06}
-      rotation: {x: -.612372398, y: -.353553355, z: .707106709, w: 6.67289644e-16}
+      rotation: {x: -.612372398, y: -.353553355, z: .707106709, w: 6.67289962e-16}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: led_forearm_01
@@ -3884,11 +4998,6 @@ ModelImporter:
       rotation: {x: -1.73375601e-17, y: 1.58566751e-17, z: -.0436193831, w: .999048173}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: right_arm_2_box6
-      position: {x: -8.43151156e-06, y: -1.87654257e-06, z: -1.6109766e-06}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: right_arm_2_box7
       position: {x: -.321050942, y: -1.49814093, z: -.871872306}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
@@ -3899,38 +5008,18 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: pCube232
-      position: {x: 6.50408077, y: -1.38427281, z: -1.60009972e-06}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: pCube233
-      position: {x: 6.45027637, y: 1.41396868, z: -1.60009984e-06}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: pCube234
-      position: {x: 3.82957387, y: 2.59062222e-06, z: -2.51362729}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: pCube235
-      position: {x: 4.32340384, y: 2.59062222e-06, z: -1.6109766e-06}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: pCylinder240
-      position: {x: 4.00201607, y: 2.59062222e-06, z: -1.6109766e-06}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: pCylinder241
       position: {x: 6.47984028, y: -.0145373279, z: -1.60009984e-06}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: pSphere2
-      position: {x: 1.42291519e-05, y: 2.59062222e-06, z: -1.6109766e-06}
+    - name: polySurface284
+      position: {x: -3.55271368e-15, y: 0, z: 0}
+      rotation: {x: 0, y: -1.1197912e-31, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: tricep_exoskeleton_mesh
+      position: {x: 28.6319637, y: -1.75935996, z: 43.9097137}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -3959,8 +5048,23 @@ ModelImporter:
       rotation: {x: -.382683456, y: -2.65906936e-16, z: .923879445, w: -4.96898538e-16}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: pCube237
-      position: {x: 2.3216424, y: -2.33230639, z: -6.56392574}
+    - name: pCube235
+      position: {x: 4.32340384, y: 2.59062222e-06, z: -1.6109766e-06}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCylinder240
+      position: {x: 4.00201607, y: 2.59062222e-06, z: -1.6109766e-06}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface282
+      position: {x: -3.55271368e-15, y: 0, z: 0}
+      rotation: {x: 0, y: -1.1197912e-31, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere2
+      position: {x: 1.42291519e-05, y: 2.59062222e-06, z: -1.6109766e-06}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -3974,6 +5078,11 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: shoulder_waveform_l2
+      position: {x: 2.24846268, y: 1.15590024, z: -6.52293158}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: left_scapula
       position: {x: -8.97454929, y: .93621093, z: -1.56443}
       rotation: {x: .821216643, y: -.0332659781, z: -.569468617, w: .0142112561}
@@ -3981,11 +5090,6 @@ ModelImporter:
       transformModified: 1
     - name: left_scapula_null
       position: {x: 9.90044308, y: 2.16005742e-06, z: 1.1854384e-05}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: metronome_led
-      position: {x: -1.83403182, y: 4.32177401, z: 4.96546299e-15}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -4284,18 +5388,23 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: pCylinder239
-      position: {x: -2.30657172, y: -3.94842148, z: 6.00986266e-15}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: polySurface262
-      position: {x: -5.07808685, y: -4.88652802, z: -2.38418508e-07}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: polySurface274
       position: {x: -7.42671776, y: .622282922, z: -5.70612717}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface285
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: .49999997, y: -.49999997, z: .49999997, w: .49999997}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: polySurface287
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: transform5
+      position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -4324,33 +5433,13 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: pCube11
-      position: {x: -3.82955956, y: 6.43929354e-15, z: 2.51362562}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: pCube37
-      position: {x: -4.32338953, y: 9.1038288e-15, z: 0}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: pCube62
       position: {x: -8.96029472, y: 1.09595919, z: -7.10542736e-15}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: pCylinder15
-      position: {x: -4.00200176, y: 8.8817842e-15, z: -7.10542736e-15}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: pCylinder16
       position: {x: -6.47982597, y: .0145399189, z: -1.08767679e-08}
-      rotation: {x: 0, y: -0, z: -0, w: .99999994}
-      scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
-    - name: pSphere1
-      position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -4674,9 +5763,34 @@ ModelImporter:
       rotation: {x: -.382683456, y: 2.34326007e-17, z: .923879445, w: 5.65712924e-17}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
+    - name: pCube11
+      position: {x: -3.82955956, y: 6.43929354e-15, z: 2.51362562}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCube37
+      position: {x: -4.32338953, y: 9.1038288e-15, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pCylinder15
+      position: {x: -4.00200176, y: 8.8817842e-15, z: -7.10542736e-15}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pSphere1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
     - name: shoulder_waveform_l1
       position: {x: -7.29340315, y: 3.24365282, z: -1.94209838}
-      rotation: {x: -.14961262, y: -.685815334, z: .704870045, w: -.102135427}
+      rotation: {x: -.149612606, y: -.685815275, z: .704869986, w: -.102135442}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoulder_waveform_l3
+      position: {x: -2.24849248, y: -1.13900578, z: 6.52293301}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: right_scapula
@@ -4704,8 +5818,8 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
-    - name: spine_4_box
-      position: {x: -0, y: 0, z: 0}
+    - name: spine_2_right_piston_1_box4
+      position: {x: -4.10729694, y: -5.99444246, z: 3.34910703}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
@@ -4717,6 +5831,141 @@ ModelImporter:
     - name: torso_front
       position: {x: -5.95423937, y: -5.00363874, z: -4.23304842e-15}
       rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_grp
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_01
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_02
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_03
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_04
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_05
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_06
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_07
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_08
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_09
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_10
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_11
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_midi_12
+      position: {x: 45.7560501, y: -1.50452912, z: -1.00204794e-14}
+      rotation: {x: 0, y: -0, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_05
+      position: {x: -.996692419, y: -5.19218063, z: 5.48292923}
+      rotation: {x: 9.86076073e-32, y: -8.47409102e-33, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_06
+      position: {x: -2.93866515, y: -5.19218063, z: 5.48292923}
+      rotation: {x: 9.86076073e-32, y: -8.47409102e-33, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_07
+      position: {x: -4.75605965, y: -5.19218063, z: 5.48292923}
+      rotation: {x: 9.86076073e-32, y: -8.47409102e-33, z: 0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_left_05
+      position: {x: -.996692419, y: -5.19218063, z: -5.48292923}
+      rotation: {x: 1.97585954e-31, y: 2.35638973e-33, z: -.0504720211, w: .998725414}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_left_06
+      position: {x: -2.93866515, y: -5.19218063, z: -5.48292923}
+      rotation: {x: 1.97585954e-31, y: 2.35638973e-33, z: -.0504720211, w: .998725414}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_left_07
+      position: {x: -4.75605965, y: -5.19218063, z: -5.48292923}
+      rotation: {x: 1.97585954e-31, y: 2.35638973e-33, z: -.0504720211, w: .998725414}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_03
+      position: {x: -.134419292, y: -4.75037861, z: 4.24938393}
+      rotation: {x: 0, y: 2.46519018e-32, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_04
+      position: {x: -2.21480632, y: -5.1771245, z: 4.24938393}
+      rotation: {x: 0, y: 2.46519018e-32, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_left_03
+      position: {x: -.134419292, y: -4.75037861, z: -4.24938393}
+      rotation: {x: 9.78568073e-32, y: 1.7304179e-32, z: .0506456606, w: .998716652}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_left_04
+      position: {x: -2.21480632, y: -5.1771245, z: -4.24938393}
+      rotation: {x: 9.78568073e-32, y: 1.7304179e-32, z: .0506456606, w: .998716652}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_01
+      position: {x: -.655784845, y: -4.44619179, z: 3.71332502}
+      rotation: {x: 1.97215215e-31, y: 2.46519018e-32, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_02
+      position: {x: -2.8768084, y: -4.6712532, z: 3.71332502}
+      rotation: {x: 1.97215215e-31, y: 2.46519018e-32, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_left_01
+      position: {x: -.655784845, y: -4.44619179, z: -3.71332502}
+      rotation: {x: 1.97215215e-31, y: 2.46519018e-32, z: -0, w: .99999994}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: torso_peak_led_left_02
+      position: {x: -2.8768084, y: -4.6712532, z: -3.71332502}
+      rotation: {x: 1.97215215e-31, y: 2.46519018e-32, z: -0, w: .99999994}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: spine_2_box
