@@ -15,6 +15,7 @@
 # All platforms:
 Library
 Temp
+Screenshots
 *.csproj
 *.pidb
 *.unityproj
