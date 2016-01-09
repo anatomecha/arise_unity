@@ -16,8 +16,11 @@
 Library
 Temp
 Screenshots
+Builds
 *.csproj
 *.pidb
 *.unityproj
 *.sln
 *.userprefs
+
+Screenshots/

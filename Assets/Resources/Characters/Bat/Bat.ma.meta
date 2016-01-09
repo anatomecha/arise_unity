@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 9b2ae65b6f79140d7aa0030cce4e3cda
+timeCreated: 1446332947
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: b_head
+    100002: b_head_null
+    100004: b_l_clavicle
+    100006: b_l_finger_1
+    100008: b_l_finger_1_null
+    100010: b_l_finger_2
+    100012: b_l_finger_2_null
+    100014: b_l_finger_3
+    100016: b_l_finger_3_null
+    100018: b_l_foot
+    100020: b_l_forearm
+    100022: b_l_hand
+    100024: b_l_hip
+    100026: b_l_knee
+    100028: b_l_toe_1
+    100030: b_l_toe_1_null
+    100032: b_l_toe_2
+    100034: b_l_toe_2_null
+    100036: b_l_toe_3
+    100038: b_l_toe_3_null
+    100040: b_l_toes
+    100042: b_l_upperarm
+    100044: b_pelvis
+    100046: b_r_clavicle
+    100048: b_r_finger_1
+    100050: b_r_finger_1_null
+    100052: b_r_finger_2
+    100054: b_r_finger_2_null
+    100056: b_r_finger_3
+    100058: b_r_finger_3_null
+    100060: b_r_foot
+    100062: b_r_forearm
+    100064: b_r_hand
+    100066: b_r_hip
+    100068: b_r_knee
+    100070: b_r_toe_1
+    100072: b_r_toe_1_null
+    100074: b_r_toe_2
+    100076: b_r_toe_2_null
+    100078: b_r_toe_3
+    100080: b_r_toe_3_null
+    100082: b_r_toes
+    100084: b_r_upperarm
+    100086: b_spine_1
+    100088: b_spine_2
+    100090: b_tail
+    100092: b_tail_null
+    100094: //RootNode
+    100096: bat_mesh
+    100098: left
+    100100: root_joint
+    400000: b_head
+    400002: b_head_null
+    400004: b_l_clavicle
+    400006: b_l_finger_1
+    400008: b_l_finger_1_null
+    400010: b_l_finger_2
+    400012: b_l_finger_2_null
+    400014: b_l_finger_3
+    400016: b_l_finger_3_null
+    400018: b_l_foot
+    400020: b_l_forearm
+    400022: b_l_hand
+    400024: b_l_hip
+    400026: b_l_knee
+    400028: b_l_toe_1
+    400030: b_l_toe_1_null
+    400032: b_l_toe_2
+    400034: b_l_toe_2_null
+    400036: b_l_toe_3
+    400038: b_l_toe_3_null
+    400040: b_l_toes
+    400042: b_l_upperarm
+    400044: b_pelvis
+    400046: b_r_clavicle
+    400048: b_r_finger_1
+    400050: b_r_finger_1_null
+    400052: b_r_finger_2
+    400054: b_r_finger_2_null
+    400056: b_r_finger_3
+    400058: b_r_finger_3_null
+    400060: b_r_foot
+    400062: b_r_forearm
+    400064: b_r_hand
+    400066: b_r_hip
+    400068: b_r_knee
+    400070: b_r_toe_1
+    400072: b_r_toe_1_null
+    400074: b_r_toe_2
+    400076: b_r_toe_2_null
+    400078: b_r_toe_3
+    400080: b_r_toe_3_null
+    400082: b_r_toes
+    400084: b_r_upperarm
+    400086: b_spine_1
+    400088: b_spine_2
+    400090: b_tail
+    400092: b_tail_null
+    400094: //RootNode
+    400096: bat_mesh
+    400098: left
+    400100: root_joint
+    4300000: bat_mesh
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: bat_mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 8
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 8
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bat_mesh
+        weight: 1
+      - path: left
+        weight: 1
+      - path: root_joint
+        weight: 1
+      - path: root_joint/b_pelvis
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee/b_l_foot
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee/b_l_foot/b_l_toes
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee/b_l_foot/b_l_toes/b_l_toe_1
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee/b_l_foot/b_l_toes/b_l_toe_1/b_l_toe_1_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee/b_l_foot/b_l_toes/b_l_toe_2
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee/b_l_foot/b_l_toes/b_l_toe_2/b_l_toe_2_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee/b_l_foot/b_l_toes/b_l_toe_3
+        weight: 1
+      - path: root_joint/b_pelvis/b_l_hip/b_l_knee/b_l_foot/b_l_toes/b_l_toe_3/b_l_toe_3_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee/b_r_foot
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee/b_r_foot/b_r_toes
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee/b_r_foot/b_r_toes/b_r_toe_1
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee/b_r_foot/b_r_toes/b_r_toe_1/b_r_toe_1_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee/b_r_foot/b_r_toes/b_r_toe_2
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee/b_r_foot/b_r_toes/b_r_toe_2/b_r_toe_2_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee/b_r_foot/b_r_toes/b_r_toe_3
+        weight: 1
+      - path: root_joint/b_pelvis/b_r_hip/b_r_knee/b_r_foot/b_r_toes/b_r_toe_3/b_r_toe_3_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_head
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_head/b_head_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm/b_l_forearm
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm/b_l_forearm/b_l_hand
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm/b_l_forearm/b_l_hand/b_l_finger_1
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm/b_l_forearm/b_l_hand/b_l_finger_1/b_l_finger_1_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm/b_l_forearm/b_l_hand/b_l_finger_2
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm/b_l_forearm/b_l_hand/b_l_finger_2/b_l_finger_2_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm/b_l_forearm/b_l_hand/b_l_finger_3
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_l_clavicle/b_l_upperarm/b_l_forearm/b_l_hand/b_l_finger_3/b_l_finger_3_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm/b_r_forearm
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm/b_r_forearm/b_r_hand
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm/b_r_forearm/b_r_hand/b_r_finger_1
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm/b_r_forearm/b_r_hand/b_r_finger_1/b_r_finger_1_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm/b_r_forearm/b_r_hand/b_r_finger_2
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm/b_r_forearm/b_r_hand/b_r_finger_2/b_r_finger_2_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm/b_r_forearm/b_r_hand/b_r_finger_3
+        weight: 1
+      - path: root_joint/b_pelvis/b_spine_1/b_spine_2/b_r_clavicle/b_r_upperarm/b_r_forearm/b_r_hand/b_r_finger_3/b_r_finger_3_null
+        weight: 1
+      - path: root_joint/b_pelvis/b_tail
+        weight: 1
+      - path: root_joint/b_pelvis/b_tail/b_tail_null
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
