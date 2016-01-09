@@ -84,9 +84,9 @@ public class OSCHandler : MonoBehaviour
 		for (int i=0; i<OSCReceiver.msgList.Count; i++)
 		{
 			oscMessage = OSCReceiver.msgList[i];
-			//Debug.Log("length of queue = " + OSCReceiver.msgList.length + ". handling address " + oscMessage.Address);
+			//Debug.Log("length of queue = " + OSCReceiver.msgList.Count + ". handling address " + oscMessage.Address);
 			if ( oscMessage == null) { continue; }
-			
+
 			//parse the address
 			string[] addressTokens = oscMessage.Address.Split("/" [0]);
 			

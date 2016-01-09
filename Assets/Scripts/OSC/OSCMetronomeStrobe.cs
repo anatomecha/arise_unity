@@ -26,7 +26,7 @@ public class OSCMetronomeStrobe : MonoBehaviour
 		Color startColor = Color.red;
 		float startTime = Time.time;
 		float normalizedEelapsedTime = 0.0f;
-		lightComponent.intensity = 5.0f;
+		lightComponent.intensity = 100.0f;
 		
 		while(normalizedEelapsedTime <=1.0){
 			float elapsedTime = (Time.time - startTime);

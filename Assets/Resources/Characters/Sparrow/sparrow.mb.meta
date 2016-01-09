@@ -1,0 +1,918 @@
+fileFormatVersion: 2
+guid: 5dde6503996d6493e86631b2ad33d250
+timeCreated: 1434249468
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: locator1
+    100004: locator2
+    100006: pSphere1
+    100008: pSphere2
+    100010: pSphere3
+    100012: group1
+    100014: group2
+    100016: pPlane1
+    100018: pSphere4
+    100020: pSphere5
+    100022: pCube1
+    100024: pCube2
+    100026: pCube3
+    100028: pCube4
+    100030: pCube5
+    100032: pCube6
+    100034: pCube7
+    100036: group3
+    100038: group4
+    100040: pCube1 1
+    100042: pCube2 1
+    100044: pCube3 1
+    100046: pCube4 1
+    100048: pCube5 1
+    100050: pCube6 1
+    100052: pCube7 1
+    100054: pPlane2
+    100056: group5
+    100058: joint10
+    100060: joint10 1
+    100062: joint10 2
+    100064: joint11
+    100066: joint11 1
+    100068: joint11 2
+    100070: joint12
+    100072: joint12 1
+    100074: joint12 2
+    100076: joint13
+    100078: joint14
+    100080: joint15
+    100082: joint16
+    100084: joint17
+    100086: joint18
+    100088: joint19
+    100090: joint20
+    100092: joint21
+    100094: joint22
+    100096: joint24
+    100098: joint25
+    100100: joint26
+    100102: joint27
+    100104: joint3
+    100106: joint32
+    100108: joint33
+    100110: joint34
+    100112: joint35
+    100114: joint36
+    100116: joint37
+    100118: joint38
+    100120: joint4
+    100122: joint5
+    100124: joint6
+    100126: joint7
+    100128: joint8
+    100130: joint9
+    100132: joint9 1
+    100134: joint9 2
+    100136: left
+    100138: pCube10
+    100140: pCube11
+    100142: pCube12
+    100144: pCube13
+    100146: pCube8
+    100148: pCube9
+    100150: pPlane3
+    100152: pCube14
+    100154: pPlane10
+    100156: pPlane11
+    100158: pPlane12
+    100160: pPlane13
+    100162: pPlane4
+    100164: pPlane5
+    100166: pPlane6
+    100168: pPlane7
+    100170: pPlane8
+    100172: pPlane9
+    100174: pPlane14
+    100176: pPlane15
+    100178: pPlane16
+    100180: pPlane17
+    100182: pPlane18
+    100184: pPlane19
+    100186: left_wing
+    100188: pPlane10 1
+    100190: pPlane11 1
+    100192: pPlane12 1
+    100194: pPlane13 1
+    100196: pPlane14 1
+    100198: pPlane15 1
+    100200: pPlane16 1
+    100202: pPlane17 1
+    100204: pPlane18 1
+    100206: pPlane19 1
+    100208: pPlane4 1
+    100210: pPlane5 1
+    100212: pPlane6 1
+    100214: pPlane7 1
+    100216: pPlane8 1
+    100218: pPlane9 1
+    100220: right_wing
+    100222: joint35 1
+    100224: joint36 1
+    100226: joint37 1
+    100228: joint38 1
+    100230: joint39
+    100232: pCube10 1
+    100234: pCube11 1
+    100236: pCube12 1
+    100238: pCube13 1
+    100240: pCube14 1
+    100242: pCube8 1
+    100244: pCube9 1
+    100246: group6
+    100248: pPlane20
+    100250: pPlane21
+    100252: pPlane22
+    100254: pPlane23
+    100256: pPlane24
+    100258: pPlane25
+    100260: pPlane26
+    100262: pPlane27
+    100264: pPlane28
+    100266: pPlane29
+    100268: pPlane30
+    100270: pPlane31
+    100272: pPlane32
+    100274: pPlane33
+    100276: pPlane34
+    100278: pPlane35
+    100280: transform1
+    100282: root_joint
+    400000: //RootNode
+    400002: locator1
+    400004: locator2
+    400006: pSphere1
+    400008: pSphere2
+    400010: pSphere3
+    400012: group1
+    400014: group2
+    400016: pPlane1
+    400018: pSphere4
+    400020: pSphere5
+    400022: pCube1
+    400024: pCube2
+    400026: pCube3
+    400028: pCube4
+    400030: pCube5
+    400032: pCube6
+    400034: pCube7
+    400036: group3
+    400038: group4
+    400040: pCube1 1
+    400042: pCube2 1
+    400044: pCube3 1
+    400046: pCube4 1
+    400048: pCube5 1
+    400050: pCube6 1
+    400052: pCube7 1
+    400054: pPlane2
+    400056: group5
+    400058: joint10
+    400060: joint10 1
+    400062: joint10 2
+    400064: joint11
+    400066: joint11 1
+    400068: joint11 2
+    400070: joint12
+    400072: joint12 1
+    400074: joint12 2
+    400076: joint13
+    400078: joint14
+    400080: joint15
+    400082: joint16
+    400084: joint17
+    400086: joint18
+    400088: joint19
+    400090: joint20
+    400092: joint21
+    400094: joint22
+    400096: joint24
+    400098: joint25
+    400100: joint26
+    400102: joint27
+    400104: joint3
+    400106: joint32
+    400108: joint33
+    400110: joint34
+    400112: joint35
+    400114: joint36
+    400116: joint37
+    400118: joint38
+    400120: joint4
+    400122: joint5
+    400124: joint6
+    400126: joint7
+    400128: joint8
+    400130: joint9
+    400132: joint9 1
+    400134: joint9 2
+    400136: left
+    400138: pCube10
+    400140: pCube11
+    400142: pCube12
+    400144: pCube13
+    400146: pCube8
+    400148: pCube9
+    400150: pPlane3
+    400152: pCube14
+    400154: pPlane10
+    400156: pPlane11
+    400158: pPlane12
+    400160: pPlane13
+    400162: pPlane4
+    400164: pPlane5
+    400166: pPlane6
+    400168: pPlane7
+    400170: pPlane8
+    400172: pPlane9
+    400174: pPlane14
+    400176: pPlane15
+    400178: pPlane16
+    400180: pPlane17
+    400182: pPlane18
+    400184: pPlane19
+    400186: left_wing
+    400188: pPlane10 1
+    400190: pPlane11 1
+    400192: pPlane12 1
+    400194: pPlane13 1
+    400196: pPlane14 1
+    400198: pPlane15 1
+    400200: pPlane16 1
+    400202: pPlane17 1
+    400204: pPlane18 1
+    400206: pPlane19 1
+    400208: pPlane4 1
+    400210: pPlane5 1
+    400212: pPlane6 1
+    400214: pPlane7 1
+    400216: pPlane8 1
+    400218: pPlane9 1
+    400220: right_wing
+    400222: joint35 1
+    400224: joint36 1
+    400226: joint37 1
+    400228: joint38 1
+    400230: joint39
+    400232: pCube10 1
+    400234: pCube11 1
+    400236: pCube12 1
+    400238: pCube13 1
+    400240: pCube14 1
+    400242: pCube8 1
+    400244: pCube9 1
+    400246: group6
+    400248: pPlane20
+    400250: pPlane21
+    400252: pPlane22
+    400254: pPlane23
+    400256: pPlane24
+    400258: pPlane25
+    400260: pPlane26
+    400262: pPlane27
+    400264: pPlane28
+    400266: pPlane29
+    400268: pPlane30
+    400270: pPlane31
+    400272: pPlane32
+    400274: pPlane33
+    400276: pPlane34
+    400278: pPlane35
+    400280: transform1
+    400282: root_joint
+    2300000: //RootNode
+    2300002: pSphere1
+    2300004: pSphere2
+    2300006: pSphere3
+    2300008: pPlane1
+    2300010: pSphere4
+    2300012: pSphere5
+    2300014: pCube1
+    2300016: pCube2
+    2300018: pCube3
+    2300020: pCube4
+    2300022: pCube5
+    2300024: pCube6
+    2300026: pCube7
+    2300028: pCube1 1
+    2300030: pCube2 1
+    2300032: pCube3 1
+    2300034: pCube4 1
+    2300036: pCube5 1
+    2300038: pCube6 1
+    2300040: pCube7 1
+    2300042: pPlane2
+    2300044: pCube10
+    2300046: pCube11
+    2300048: pCube12
+    2300050: pCube13
+    2300052: pCube8
+    2300054: pCube9
+    2300056: pPlane3
+    2300058: pCube14
+    2300060: pPlane10
+    2300062: pPlane11
+    2300064: pPlane12
+    2300066: pPlane13
+    2300068: pPlane4
+    2300070: pPlane5
+    2300072: pPlane6
+    2300074: pPlane7
+    2300076: pPlane8
+    2300078: pPlane9
+    2300080: pPlane14
+    2300082: pPlane15
+    2300084: pPlane16
+    2300086: pPlane17
+    2300088: pPlane18
+    2300090: pPlane19
+    2300092: pPlane10 1
+    2300094: pPlane11 1
+    2300096: pPlane12 1
+    2300098: pPlane13 1
+    2300100: pPlane14 1
+    2300102: pPlane15 1
+    2300104: pPlane16 1
+    2300106: pPlane17 1
+    2300108: pPlane18 1
+    2300110: pPlane19 1
+    2300112: pPlane4 1
+    2300114: pPlane5 1
+    2300116: pPlane6 1
+    2300118: pPlane7 1
+    2300120: pPlane8 1
+    2300122: pPlane9 1
+    2300124: pCube10 1
+    2300126: pCube11 1
+    2300128: pCube12 1
+    2300130: pCube13 1
+    2300132: pCube14 1
+    2300134: pCube8 1
+    2300136: pCube9 1
+    2300138: pPlane20
+    2300140: pPlane21
+    2300142: pPlane22
+    2300144: pPlane23
+    2300146: pPlane24
+    2300148: pPlane25
+    2300150: pPlane26
+    2300152: pPlane27
+    2300154: pPlane28
+    2300156: pPlane29
+    2300158: pPlane30
+    2300160: pPlane31
+    2300162: pPlane32
+    2300164: pPlane33
+    2300166: pPlane34
+    2300168: pPlane35
+    3300000: //RootNode
+    3300002: pSphere1
+    3300004: pSphere2
+    3300006: pSphere3
+    3300008: pPlane1
+    3300010: pSphere4
+    3300012: pSphere5
+    3300014: pCube1
+    3300016: pCube2
+    3300018: pCube3
+    3300020: pCube4
+    3300022: pCube5
+    3300024: pCube6
+    3300026: pCube7
+    3300028: pCube1 1
+    3300030: pCube2 1
+    3300032: pCube3 1
+    3300034: pCube4 1
+    3300036: pCube5 1
+    3300038: pCube6 1
+    3300040: pCube7 1
+    3300042: pPlane2
+    3300044: pCube10
+    3300046: pCube11
+    3300048: pCube12
+    3300050: pCube13
+    3300052: pCube8
+    3300054: pCube9
+    3300056: pPlane3
+    3300058: pCube14
+    3300060: pPlane10
+    3300062: pPlane11
+    3300064: pPlane12
+    3300066: pPlane13
+    3300068: pPlane4
+    3300070: pPlane5
+    3300072: pPlane6
+    3300074: pPlane7
+    3300076: pPlane8
+    3300078: pPlane9
+    3300080: pPlane14
+    3300082: pPlane15
+    3300084: pPlane16
+    3300086: pPlane17
+    3300088: pPlane18
+    3300090: pPlane19
+    3300092: pPlane10 1
+    3300094: pPlane11 1
+    3300096: pPlane12 1
+    3300098: pPlane13 1
+    3300100: pPlane14 1
+    3300102: pPlane15 1
+    3300104: pPlane16 1
+    3300106: pPlane17 1
+    3300108: pPlane18 1
+    3300110: pPlane19 1
+    3300112: pPlane4 1
+    3300114: pPlane5 1
+    3300116: pPlane6 1
+    3300118: pPlane7 1
+    3300120: pPlane8 1
+    3300122: pPlane9 1
+    3300124: pCube10 1
+    3300126: pCube11 1
+    3300128: pCube12 1
+    3300130: pCube13 1
+    3300132: pCube14 1
+    3300134: pCube8 1
+    3300136: pCube9 1
+    3300138: pPlane20
+    3300140: pPlane21
+    3300142: pPlane22
+    3300144: pPlane23
+    3300146: pPlane24
+    3300148: pPlane25
+    3300150: pPlane26
+    3300152: pPlane27
+    3300154: pPlane28
+    3300156: pPlane29
+    3300158: pPlane30
+    3300160: pPlane31
+    3300162: pPlane32
+    3300164: pPlane33
+    3300166: pPlane34
+    3300168: pPlane35
+    4300000: pSphere1
+    4300002: pSphere2
+    4300004: pSphere3
+    4300006: pPlane1
+    4300008: pSphere4
+    4300010: pSphere5
+    4300012: pCube1
+    4300014: pCube2
+    4300016: pCube3
+    4300018: pCube4
+    4300020: pCube5
+    4300022: pCube6
+    4300024: pCube7
+    4300026: pPlane2
+    4300028: pCube1
+    4300030: pCube2
+    4300032: pCube3
+    4300034: pCube4
+    4300036: pCube5
+    4300038: pCube6
+    4300040: pCube7
+    4300042: pCube11
+    4300044: pCube10
+    4300046: pCube13
+    4300048: pCube9
+    4300050: pCube12
+    4300052: pCube8
+    4300054: pPlane3
+    4300056: pCube14
+    4300058: pPlane4
+    4300060: pPlane5
+    4300062: pPlane6
+    4300064: pPlane7
+    4300066: pPlane8
+    4300068: pPlane9
+    4300070: pPlane10
+    4300072: pPlane11
+    4300074: pPlane12
+    4300076: pPlane13
+    4300078: pPlane14
+    4300080: pPlane15
+    4300082: pPlane16
+    4300084: pPlane17
+    4300086: pPlane18
+    4300088: pPlane19
+    4300090: pPlane4
+    4300092: pPlane5
+    4300094: pPlane6
+    4300096: pPlane7
+    4300098: pPlane8
+    4300100: pPlane9
+    4300102: pPlane10
+    4300104: pPlane11
+    4300106: pPlane12
+    4300108: pPlane13
+    4300110: pPlane14
+    4300112: pPlane15
+    4300114: pPlane16
+    4300116: pPlane17
+    4300118: pPlane18
+    4300120: pPlane19
+    4300122: pCube11
+    4300124: pCube14
+    4300126: pCube10
+    4300128: pCube13
+    4300130: pCube9
+    4300132: pCube12
+    4300134: pCube8
+    4300136: pPlane20
+    4300138: pPlane21
+    4300140: pPlane22
+    4300142: pPlane23
+    4300144: pPlane24
+    4300146: pPlane25
+    4300148: pPlane26
+    4300150: pPlane27
+    4300152: pPlane28
+    4300154: pPlane29
+    4300156: pPlane30
+    4300158: pPlane31
+    4300160: pPlane32
+    4300162: pPlane33
+    4300164: pPlane34
+    4300166: pPlane35
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint21
+        weight: 1
+      - path: joint21/group3
+        weight: 1
+      - path: joint21/group3/pCube1
+        weight: 1
+      - path: joint21/group3/pCube2
+        weight: 1
+      - path: joint21/group3/pCube3
+        weight: 1
+      - path: joint21/group3/pCube4
+        weight: 1
+      - path: joint21/group3/pCube5
+        weight: 1
+      - path: joint21/group3/pCube6
+        weight: 1
+      - path: joint21/group3/pCube7
+        weight: 1
+      - path: joint21/group4
+        weight: 1
+      - path: joint21/group4/pCube1 1
+        weight: 1
+      - path: joint21/group4/pCube2 1
+        weight: 1
+      - path: joint21/group4/pCube3 1
+        weight: 1
+      - path: joint21/group4/pCube4 1
+        weight: 1
+      - path: joint21/group4/pCube5 1
+        weight: 1
+      - path: joint21/group4/pCube6 1
+        weight: 1
+      - path: joint21/group4/pCube7 1
+        weight: 1
+      - path: joint21/joint5
+        weight: 1
+      - path: joint21/joint5/joint6
+        weight: 1
+      - path: joint21/joint5/joint6/joint7
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint13
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint13/joint9
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint13/joint9/joint10
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint13/joint9/joint10/joint11
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint13/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint14
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint14/joint9 1
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint14/joint9 1/joint10 1
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint14/joint9 1/joint10 1/joint11
+          1
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint14/joint9 1/joint10 1/joint11
+          1/joint12 1
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint15
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint15/joint9 2
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint15/joint9 2/joint10 2
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint15/joint9 2/joint10 2/joint11
+          2
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint15/joint9 2/joint10 2/joint11
+          2/joint12 2
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint16
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint16/joint17
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint16/joint17/joint18
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint16/joint17/joint18/joint19
+        weight: 1
+      - path: joint21/joint5/joint6/joint7/joint8/joint16/joint17/joint18/joint19/joint20
+        weight: 1
+      - path: joint21/joint22
+        weight: 1
+      - path: joint21/joint22/joint24
+        weight: 1
+      - path: joint21/joint22/joint24/group6
+        weight: 1
+      - path: joint21/joint22/joint24/group6/pPlane28
+        weight: 1
+      - path: joint21/joint22/joint24/group6/pPlane29
+        weight: 1
+      - path: joint21/joint22/joint24/group6/pPlane30
+        weight: 1
+      - path: joint21/joint22/joint24/group6/pPlane31
+        weight: 1
+      - path: joint21/joint22/joint24/group6/pPlane32
+        weight: 1
+      - path: joint21/joint22/joint24/group6/pPlane33
+        weight: 1
+      - path: joint21/joint22/joint24/group6/pPlane34
+        weight: 1
+      - path: joint21/joint22/joint24/group6/pPlane35
+        weight: 1
+      - path: joint21/joint22/joint24/joint25
+        weight: 1
+      - path: joint21/joint22/joint24/pPlane20
+        weight: 1
+      - path: joint21/joint22/joint24/pPlane21
+        weight: 1
+      - path: joint21/joint22/joint24/pPlane22
+        weight: 1
+      - path: joint21/joint22/joint24/pPlane23
+        weight: 1
+      - path: joint21/joint22/joint24/pPlane24
+        weight: 1
+      - path: joint21/joint22/joint24/pPlane25
+        weight: 1
+      - path: joint21/joint22/joint24/pPlane26
+        weight: 1
+      - path: joint21/joint22/joint24/pPlane27
+        weight: 1
+      - path: joint21/joint26
+        weight: 1
+      - path: joint21/joint26/joint32
+        weight: 1
+      - path: joint21/joint26/joint32/joint33
+        weight: 1
+      - path: joint21/joint26/joint32/joint33/joint3
+        weight: 1
+      - path: joint21/joint26/joint32/joint33/joint3/joint4
+        weight: 1
+      - path: joint21/joint26/joint32/joint33/joint3/pSphere2
+        weight: 1
+      - path: joint21/joint26/joint32/joint34
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/joint36
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/joint36/joint37
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/joint36/joint37/joint38
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/joint36/joint37/pCube11
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/joint36/joint37/pCube14
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/joint36/pCube10
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/joint36/pCube13
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane4
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane5
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane6
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane7
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane8
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane9
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane10
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane11
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane12
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane13
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane14
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane15
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane16
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane17
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane18
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/left_wing/pPlane19
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/pCube9
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/joint35/pCube12
+        weight: 1
+      - path: joint21/joint26/joint32/joint34/pCube8
+        weight: 1
+      - path: joint21/joint26/joint32/transform1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/joint36 1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/joint36 1/joint37
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/joint36 1/joint37
+          1/joint38 1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/joint36 1/joint37
+          1/pCube11 1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/joint36 1/joint37
+          1/pCube14 1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/joint36 1/pCube10
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/joint36 1/pCube13
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/pCube9 1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/pCube12 1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane4
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane5
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane6
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane7
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane8
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane9
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane10
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane11
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane12
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane13
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane14
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane15
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane16
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane17
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane18
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/joint35 1/right_wing/pPlane19
+          1
+        weight: 1
+      - path: joint21/joint26/joint32/transform1/joint39/pCube8 1
+        weight: 1
+      - path: joint21/pSphere1
+        weight: 1
+      - path: joint27
+        weight: 1
+      - path: left
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .200000003
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

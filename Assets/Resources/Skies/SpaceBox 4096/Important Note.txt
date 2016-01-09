@@ -1,0 +1,8 @@
+IMPORTANT NOTE: 
+
+Default MaxSize of textures has been set to 1024 x 1024
+to improve speed when importing the asset. To increase
+resolution to 2048 or 4096, select the textures in SpaceBox
+HD/Textures project folders and change MaxSize to 2048 or
+4096 then click Apply (hint: you can select multiple
+textures using shift/control key.)
