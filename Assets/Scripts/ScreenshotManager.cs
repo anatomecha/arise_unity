@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ScreenshotManager : MonoBehaviour {
 	public Color backgroundColor = new Color( 0, 0, 0 );
-	string directory = "Screenshots";
+	string directory = "../Screenshots";
 	string loadedLevelName;
 	Camera camera;
 
@@ -17,7 +17,7 @@ public class ScreenshotManager : MonoBehaviour {
 	void Update () {
 
 		// grab screenshot
-		if (Input.GetKeyDown("return")) {
+		if (Input.GetKeyDown("return") || Input.GetKey(KeyCode.KeypadEnter)) {
 
 			// format file name
 			string filename = loadedLevelName + "_" + System.DateTime.Now.ToString() + ".png";
@@ -30,9 +30,14 @@ public class ScreenshotManager : MonoBehaviour {
 		}
 
 		// set background solid color on button press
-		if (Input.GetKeyDown("space")) {
+		if (Input.GetKeyDown("space") || Input.GetKey(KeyCode.Keypad0)) {
 			//Paint ();
 		} 
+
+		if (Input.GetKeyDown(KeyCode.Backspace)) {
+			Application.LoadLevel(0);
+		}
+
 	}
 
 	public void Paint(){

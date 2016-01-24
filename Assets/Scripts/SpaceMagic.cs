@@ -29,7 +29,7 @@ public class Axiom : MonoBehaviour {
 			//children.Add( child.gameObject );
 			if( child.GetComponent<Renderer>() != null ){
 				material = child.GetComponent<Renderer>().sharedMaterial;
-				print ("material===" + material);
+				print ("material=" + material);
 				this.material = material;
 			}
 		}
@@ -51,6 +51,9 @@ public class SpaceMagic : MonoBehaviour {
 	public GameObject axiomRoot;
 	private Vector3 axiomCurrentOrientation;
 	private Vector3 axiomOrientationOffset;
+	private float axiomScale = 2.0f;
+	private float axiomScaleStep = 0.1f;
+	public SpaceMagicScene spaceMagicScene;
 
 	// leap hand controller
 	private bool handExists = false;
@@ -68,10 +71,6 @@ public class SpaceMagic : MonoBehaviour {
 	void Start() {
 		print ("initializing axiom...");
 
-		/*foreach (GameObject a in axioms) { 	 
-			a.SetActive (false);
-		}*/
-
 		for( int i=0; i<axioms.Count; i++ ){
 			axioms[i].SetActive(false);
 			axiomObjects.Add( new Axiom(axioms[i]));
@@ -87,17 +86,24 @@ public class SpaceMagic : MonoBehaviour {
 		pinching_ = false;
 
 		var previousAxiom = globals.transform.localPosition.x;
+		globals.transform.localEulerAngles = new Vector3(axiomScale,0.0f,0.0f);
 		print ("previousAxiom=" + previousAxiom);
 		SwitchAxiom ( System.Convert.ToInt32(previousAxiom));
 
+		axiomScale = globals.transform.localEulerAngles.x;
+		activeAxiom.axiomObject.transform.localScale = new Vector3 ( axiomScale, axiomScale, axiomScale );
+
 	}
 
+	// the spaceMagicGlobals object is a transform that remains in the scene even when the hands aren't there
+	// to preserve persistent information
+	// globals.position.x = active axiom index
+	// globals.localEulerAngles.x = axiom scale
 	void GetGlobals() {
 		globals = GameObject.Find ("spaceMagicGlobals");
 		if( globals == null){
 			globals = new GameObject("spaceMagicGlobals");
 		}
-		print ("globals=" + globals);
 	}
 
 	void OnPinch() {
@@ -136,7 +142,7 @@ public class SpaceMagic : MonoBehaviour {
 				Vector3 palmForwardDiff = palmForwardDefault - palm_forward;
 				float alphaCutoff;
 
-				activeAxiom.axiomObject.transform.localPosition = new Vector3 (palm_pos.x * pos_scale, palm_pos.y * pos_scale, palm_pos.z * -pos_scale *8.0f);
+				activeAxiom.axiomObject.transform.localPosition = new Vector3 (palm_pos.x * pos_scale, palm_pos.y * pos_scale, palm_pos.z * -pos_scale);// *8.0f);
 
 				if (pinching_) {
 					// direct rotational control
@@ -156,26 +162,13 @@ public class SpaceMagic : MonoBehaviour {
 				}
 				else {
 					// continuous spin
-					Vector3 axiomSpin = new Vector3( palmForwardDiff.y, palmForwardDiff.x, palmForwardDiff.z ) * 10.0f;
+					Vector3 axiomSpin = new Vector3( palmForwardDiff.y, palmForwardDiff.x, palmForwardDiff.z ) * 180.0f * Time.deltaTime;
 					activeAxiom.axiomObject.transform.Rotate( axiomSpin, Space.World );
 
 					// set material alpha
 					alphaCutoff = Mathf.Abs((200.0f - palm_pos.y)/-200.0f);
 					activeAxiom.material.SetFloat("_Cutoff", alphaCutoff);
 
-					/*
-					if( alphaCutoff < 1.000f ){
-						activeAxiom.material.SetFloat("_Cutoff", alphaCutoff);
-						print ("setting alphaCutoff start to " + alphaCutoff);
-					}
-					if( alphaCutoff >= 1.0f && alphaCutoff < 1.5f ) {
-						activeAxiom.material.SetFloat("_Cutoff", 1.0f);
-						print ("setting alphaCutoff middle to 1.0" );
-					}
-					if( alphaCutoff >= 1.5f ){
-						activeAxiom.material.SetFloat("_Cutoff", 0.5f + alphaCutoff);
-						print ("setting alphaCutoff end to " + 0.5f + alphaCutoff);
-					}*/
 
 				}
 
@@ -187,11 +180,24 @@ public class SpaceMagic : MonoBehaviour {
 
 		camera.transform.LookAt ( cameraTarget );
 
-		if (Input.GetKey("1") ) { SwitchAxiom(0); }
-		if (Input.GetKey("2") ) { SwitchAxiom(1); }
-		if (Input.GetKey("3") ) { SwitchAxiom(2); }
-		if (Input.GetKey("4") ) { SwitchAxiom(3); }
-		if (Input.GetKey("5") ) { SwitchAxiom(4); }
+		// detect input for switching axioms
+		if (Input.GetKey("1") || Input.GetKey(KeyCode.Keypad8) ) { SwitchAxiom(0); }
+		if (Input.GetKey("2") || Input.GetKey(KeyCode.Keypad5) ) { SwitchAxiom(1); }
+		if (Input.GetKey("3") || Input.GetKey(KeyCode.Keypad4) ) { SwitchAxiom(2); }
+		if (Input.GetKey("4") || Input.GetKey(KeyCode.Keypad6) ) { SwitchAxiom(3); }
+		if (Input.GetKey("5") || Input.GetKey(KeyCode.Keypad2) ) { SwitchAxiom(4); }
+
+		// set axiom scale based on numberpad plus/minus input
+		if( Input.GetKey(KeyCode.KeypadMinus ) ){
+			axiomScale += axiomScaleStep;
+			globals.transform.localEulerAngles = new Vector3(axiomScale,0.0f,0.0f);
+		}
+		if( Input.GetKey(KeyCode.KeypadPlus ) ){
+			axiomScale -= axiomScaleStep;
+			globals.transform.localEulerAngles = new Vector3(axiomScale,0.0f,0.0f);
+		}
+		activeAxiom.axiomObject.transform.localScale = new Vector3 ( axiomScale, axiomScale, axiomScale );
+
 	}
 
 	void DetectPinchGesture(  ){
@@ -231,6 +237,8 @@ public class SpaceMagic : MonoBehaviour {
 		print ("init hand space magic...");
 		palmForwardDefault = handModel.palm.forward;
 		print ("palmDefaultForward=" + palmForwardDefault);
+		axiomScale = globals.transform.localEulerAngles.x;
+		activeAxiom.axiomObject.transform.localScale = new Vector3 ( axiomScale, axiomScale, axiomScale );
 	}
 	
 	void SwitchAxiom( int i ) {
@@ -240,10 +248,11 @@ public class SpaceMagic : MonoBehaviour {
 		activeAxiom.axiomObject.SetActive(true);
 		print("switching axiom to " + i);
 		globals.transform.localPosition = new Vector3(i,0.0f,0.0f);
-		SetCameraTarget ( activeAxiom.axiomObject.transform );
+		//spaceMagicScene.activeAxiom = activeAxiom.gameObject;
 	}
 	
 	void SetCameraTarget( Transform newTarget ) {
 		cameraTarget = newTarget;
 	}
-}	
+}
+

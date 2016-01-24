@@ -120,6 +120,7 @@
      <Compile Include="Assets\Resources\Skies\SpaceBox 4096\Demo\Scripts\SpaceBox_Movement.cs" />
      <Compile Include="Assets\Resources\Skies\SpaceBox 4096\Demo\Space Effects\Scripts\SpaceParticles.cs" />
      <Compile Include="Assets\Resources\Skies\SpaceBox 4096\Mono Space Series\SpaceBox ST\Scripts\SpaceBoxST.cs" />
+     <Compile Include="Assets\RewindTools\Shared\ExtensionMethods.cs" />
      <Compile Include="Assets\Scripts\AffineTransformationFractal.cs" />
      <Compile Include="Assets\Scripts\Boid.cs" />
      <Compile Include="Assets\Scripts\BoidsJoystickController.cs" />
@@ -141,6 +142,8 @@
      <Compile Include="Assets\Scripts\OSC\OSCWaveformEnvelope.cs" />
      <Compile Include="Assets\Scripts\ScreenshotManager.cs" />
      <Compile Include="Assets\Scripts\SpaceMagic.cs" />
+     <Compile Include="Assets\Scripts\SpaceMagicScene.cs" />
+     <Compile Include="Assets\Scripts\SpaceWarp.cs" />
      <Compile Include="Assets\Scripts\StringExtensionMethods.cs" />
      <Compile Include="Assets\Scripts\Test\ConfidenceTransparencyHack.cs" />
      <Compile Include="Assets\Scripts\Test\FogAnimator.cs" />

@@ -24,6 +24,7 @@ public class ColorPinch : MonoBehaviour {
 
 	private float nearClipPlane = 1.0f;
 	private float farClipPlane = 100.0f;
+	private float clipPlaneWidth = 0.1f;
 
 	void Start() {
 		pinching_ = false;
@@ -35,6 +36,10 @@ public class ColorPinch : MonoBehaviour {
 		pinching_ = true;
 		//print ("color pinching = true");
 		RenderSettings.fog = true;
+
+		//camera.nearClipPlane = clipPlaneSliceDistance - clipPlaneWidth/2.0f;
+		//camera.farClipPlane = clipPlaneSliceDistance + clipPlaneWidth/2.0f;
+
 		camera.nearClipPlane = clipPlaneSliceDistance;
 		camera.farClipPlane = clipPlaneSliceDistance + 0.1f;
 		camera.clearFlags = CameraClearFlags.Depth;
@@ -54,7 +59,7 @@ public class ColorPinch : MonoBehaviour {
 		bool trigger_pinch = false;
 
 		// set background solid color on button press
-		if (Input.GetKeyDown("space")) {
+		/*if (Input.GetKeyDown("space")) {
 			camera.clearFlags = CameraClearFlags.SolidColor;
 			camera.backgroundColor = backgroundColor;
 			nearClipPlane = camera.nearClipPlane;
@@ -62,7 +67,7 @@ public class ColorPinch : MonoBehaviour {
 		} 
 		else {
 			//camera.clearFlags = CameraClearFlags.Depth;
-		}
+		}*/
 
 		handModel = GetComponent<HandModel>();
 		if (handModel != null) {
@@ -116,6 +121,13 @@ public class ColorPinch : MonoBehaviour {
 				//RenderSettings.fogColor = pinchColor;
 				//print ("pinchColor=" + pinchColor + " palmForwardDiff=" + palmForwardDiff);
 				//print ("r=" + pinchColor.r + " g=" + pinchColor.g + " b=" + pinchColor.b);
+
+				/* // set clip plane width - this works, but I'm not srue I want to keep it.
+				clipPlaneWidth = Mathf.Abs((200.0f - palm_pos.y)/-200.0f);
+				print("clipPlaneWidth=" + clipPlaneWidth);
+				camera.nearClipPlane = clipPlaneSliceDistance - clipPlaneWidth/2.0f;
+				camera.farClipPlane = clipPlaneSliceDistance + clipPlaneWidth/2.0f;
+				*/
 			}
 		} 
 		else {

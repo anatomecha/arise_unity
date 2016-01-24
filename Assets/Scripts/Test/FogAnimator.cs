@@ -70,8 +70,8 @@ public class FogAnimator : MonoBehaviour {
 
 		// set up camera
 		camera = GetComponent<Camera> ();
-		camera.clearFlags = CameraClearFlags.SolidColor;
-		camera.backgroundColor = Color.black;
+		//camera.clearFlags = CameraClearFlags.SolidColor;
+		//camera.backgroundColor = Color.black;
 		//camera.clearFlags = CameraClearFlags.Depth;
 
 	}
@@ -84,10 +84,10 @@ public class FogAnimator : MonoBehaviour {
 
 		// set background solid color on button press
 		if (Input.GetKeyDown("space")) {
-			camera.clearFlags = CameraClearFlags.SolidColor;
-			camera.backgroundColor = backgroundColor;
+			//camera.clearFlags = CameraClearFlags.SolidColor;
+			//camera.backgroundColor = backgroundColor;
 		} else {
-			camera.clearFlags = CameraClearFlags.Depth;
+			//camera.clearFlags = CameraClearFlags.Depth;
 		}
 
 	}
